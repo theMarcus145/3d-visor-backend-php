@@ -1,0 +1,18 @@
+{
+    "name": "marco/php-backend",
+    "autoload": {
+        "psr-4": {
+            "Marco\\PhpBackend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marco",
+            "email": "marcogilvalero@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "firebase/php-jwt": "^6.11"
+    }
+}
