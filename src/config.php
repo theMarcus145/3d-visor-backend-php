@@ -14,11 +14,11 @@ define('TEMP_PATH', PUBLIC_PATH . '/temp');
 define('MODELS_JSON_PATH', PUBLIC_PATH . '/models.json');
 
 // JWT Configuration
-define('JWT_SECRET', $_ENV['JWT_SECRET'] ?? '3dsoul$2025$');
+define('JWT_SECRET', $_ENV['JWT_SECRET']);
 define('JWT_EXPIRY', 3600); // Token expiry in seconds (1 hour)
 
 // CORS Configuration
-define('ALLOWED_ORIGIN', 'http://localhost:5173');
+define('ALLOWED_ORIGIN', $_ENV['ALLOWED_ORIGIN']);
 
 // Create necessary directories on startup
 function ensureDirectories() {

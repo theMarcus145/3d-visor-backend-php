@@ -1,8 +1,8 @@
 RewriteEngine On
-RewriteBase /
+RewriteBase /VISOR3D/back-end/
 
-# Serve static files directly
-RewriteCond %{REQUEST_URI} ^/public/
+# Serve static files directly (ajusta la ruta si tienes una carpeta /public)
+RewriteCond %{REQUEST_URI} ^/VISOR3D/back-end/public/
 RewriteRule ^ - [L]
 
 # Redirect all other requests to index.php
@@ -12,7 +12,7 @@ RewriteRule ^ index.php [QSA,L]
 
 # Set CORS headers
 <IfModule mod_headers.c>
-    Header set Access-Control-Allow-Origin "https://3dsoulschoolvisor.netlify.app"
+    Header set Access-Control-Allow-Origin "https://www.3dsoulschool.es"
     Header set Access-Control-Allow-Methods "GET, POST, OPTIONS, DELETE"
     Header set Access-Control-Allow-Headers "Content-Type, Authorization"
     Header set Access-Control-Max-Age "86400"
