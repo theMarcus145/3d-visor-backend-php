@@ -3,7 +3,7 @@
         'name' => 'marco/php-backend',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '54df1daabee7f41405a7a3789733b2af9d72f337',
+        'reference' => 'd681995adb8c9a7eb0359a1c647feb0551bb23f3',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'marco/php-backend' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '54df1daabee7f41405a7a3789733b2af9d72f337',
+            'reference' => 'd681995adb8c9a7eb0359a1c647feb0551bb23f3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

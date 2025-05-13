@@ -5,7 +5,7 @@ use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
 
 class Auth {
-    // Hardcoded users (same as in original)
+    // Hardcoded users
     private static $users = [
         [
             'username' => 'admin',

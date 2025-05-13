@@ -1,14 +1,14 @@
 {
-  "models": [
-    {
-      "name": "coche",
-      "modelPath": "models/coche/scene.glb",
-      "imagePath": "previews/1743096499160-357903579.png"
-    },
-    {
-      "name": "Groot",
-      "modelPath": "models/Groot/scene.glb",
-      "imagePath": "previews/1743697591917-781095692.jpg"
-    }
-  ]
+    "models": [
+        {
+            "name": "coche",
+            "modelPath": "models\/coche\/scene.glb",
+            "imagePath": "previews\/1743096499160-357903579.png"
+        },
+        {
+            "name": "xc",
+            "modelPath": "models\/xc\/scene.glb",
+            "imagePath": "previews\/1747147462-551973.jpeg"
+        }
+    ]
 }

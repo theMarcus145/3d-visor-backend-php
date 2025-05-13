@@ -1,7 +1,7 @@
 RewriteEngine On
 RewriteBase /VISOR3D/back-end/
 
-# Serve static files directly (ajusta la ruta si tienes una carpeta /public)
+# Serve static files directly
 RewriteCond %{REQUEST_URI} ^/VISOR3D/back-end/public/
 RewriteRule ^ - [L]
 
